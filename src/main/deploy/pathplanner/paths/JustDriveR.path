@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.9029392417759192,
+        "y": 4.3385312981452175
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.2420697206066778,
+        "y": 3.9058475837749405
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.62197994481459,
+        "y": 2.993703537264625
+      },
+      "prevControl": {
+        "x": 2.177602076001872,
+        "y": 2.993703537264625
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "JustDrive",
+  "previewStartingState": {
+    "rotation": -58.240519915187164,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

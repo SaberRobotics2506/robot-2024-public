@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.9029392417759192,
+      "y": 6.677362186633205
+    },
+    "rotation": 61.260204708311974
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "SpeakerShot"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": []
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2NoteInitL"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeNote"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LeftMidSpeakerShot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "2Speaker",
+  "choreoAuto": false
+}

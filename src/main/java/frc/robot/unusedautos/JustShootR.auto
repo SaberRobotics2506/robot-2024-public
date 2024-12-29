@@ -1,0 +1,25 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.29,
+      "y": 4.23
+    },
+    "rotation": 126.81416555754755
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "SpeakerShot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "JustShoot",
+  "choreoAuto": false
+}

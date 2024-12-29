@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.47,
+      "y": 4.05
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2NoteLongEmpty1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LeftMidSpeakerShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "1NoteLong"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

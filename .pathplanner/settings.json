@@ -1,0 +1,36 @@
+{
+  "robotWidth": 0.7,
+  "robotLength": 0.8,
+  "holonomicMode": true,
+  "pathFolders": [
+    "2NoteInit",
+    "2Notes",
+    "3Note",
+    "AmpExit",
+    "DoNothing",
+    "InitAmp",
+    "Intake",
+    "JustDrive",
+    "New Folder",
+    "1Note",
+    "NoteExit",
+    "Speaker",
+    "StartExit"
+  ],
+  "autoFolders": [
+    "1Speaker",
+    "2Speaker",
+    "3Speaker",
+    "DoNothing",
+    "FarSpeakers",
+    "JustDrive",
+    "JustShoot",
+    "2Side",
+    "4Note"
+  ],
+  "defaultMaxVel": 5.0,
+  "defaultMaxAccel": 5.0,
+  "defaultMaxAngVel": 540.0,
+  "defaultMaxAngAccel": 720.0,
+  "maxModuleSpeed": 4.5
+}

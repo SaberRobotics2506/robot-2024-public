@@ -1,0 +1,74 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.6,
+      "y": 7.06
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2NoteLongBusy1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LeftMidSpeakerShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2NoteLongBusy2"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "IntakeNote"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "2NoteLongBusy3"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "LongAngle"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LeftMidSpeakerShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "LongLong"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "2Side",
+  "choreoAuto": false
+}

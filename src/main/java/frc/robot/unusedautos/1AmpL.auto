@@ -1,0 +1,43 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3005404928188775,
+      "y": 6.981410202136645
+    },
+    "rotation": -118.92642583525357
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "InitAmpL"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "fullShoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpExit"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "1Amp",
+  "choreoAuto": false
+}
